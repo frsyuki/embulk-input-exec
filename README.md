@@ -57,7 +57,7 @@ some_other_fields: anything_here
 
 `tasks` gives number of tasks to run at step 2, the "run" step. If it's 3, for example, step 2 runs your script with 0, 1, and 2 as the 3rd argument.
 
-`columns` gives schema of the data. It's necessary for embulk to be able to read the CSV file. Syntax of this field is same with the `columns` field of embulk-input-csv. You can find more details in (embulk-input-csv documents)[https://www.embulk.org/docs/built-in.html#id4].
+`columns` gives schema of the data. It's necessary for embulk to be able to read the CSV file. Syntax of this field is same with the `columns` field of embulk-input-csv. You can find more details in [embulk-input-csv documents](https://www.embulk.org/docs/built-in.html#id4).
 
 As long as it includes `tasks` and `columns` fields, it can include any fields for your convenience.
 
